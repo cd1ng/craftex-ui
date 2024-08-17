@@ -3,7 +3,6 @@ import { fn } from '@storybook/test'
 import { Button } from 'cding-ui'
 
 import { Custom } from './Custom.stories'
-// @ts-expect-error - required for ts
 import CustomSource from './Custom.stories?raw'
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
