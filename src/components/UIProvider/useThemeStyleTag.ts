@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { UIProviderProps } from 'cding-ui'
+import { UIProviderProps } from 'craftex-ui'
 import { createCSSRuleFromTheme } from './createCSSRuleFromTheme'
 
 // 生成style标签,id

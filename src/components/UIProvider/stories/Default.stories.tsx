@@ -7,7 +7,7 @@ import {
   teamsDarkTheme,
   webDarkTheme,
   teamsHighContrastTheme,
-} from 'cding-ui'
+} from 'craftex-ui'
 
 const useStyles = makeStyles({
   provider: {

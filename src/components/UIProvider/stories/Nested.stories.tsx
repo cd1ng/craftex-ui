@@ -1,5 +1,5 @@
 import { makeStyles } from '@griffel/react'
-import { tokens, UIProvider } from 'cding-ui'
+import { tokens, UIProvider } from 'craftex-ui'
 
 const useStyles = makeStyles({
   example: {

@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react'
-import { UIProvider } from 'cding-ui'
+import { UIProvider } from 'craftex-ui'
 import Default from './Default.stories'
 import DefaultSource from './Default.stories?raw'
 import Nested from './Nested.stories'

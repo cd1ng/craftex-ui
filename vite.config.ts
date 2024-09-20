@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'cding-ui': path.resolve(__dirname, './src/index.ts'),
+      'craftex-ui': path.resolve(__dirname, './src/index.ts'),
     },
   },
   test: {

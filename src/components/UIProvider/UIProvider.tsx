@@ -1,5 +1,5 @@
 import React, { createContext } from 'react'
-import { Theme, webLightTheme } from 'cding-ui'
+import { Theme, webLightTheme } from 'craftex-ui'
 import { useStyles } from './useStyles.styles'
 
 type ThemeContextValue = Theme | Partial<Theme> | undefined

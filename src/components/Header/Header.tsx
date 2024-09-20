@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button } from 'cding-ui'
+import { Button } from 'craftex-ui'
 import './header.css'
 
 type User = {

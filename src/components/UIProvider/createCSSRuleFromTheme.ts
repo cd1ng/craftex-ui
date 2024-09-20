@@ -1,4 +1,4 @@
-import { Theme, PartialTheme } from 'cding-ui'
+import { Theme, PartialTheme } from 'craftex-ui'
 
 /**
  * 根据theme，创建一个css规则，

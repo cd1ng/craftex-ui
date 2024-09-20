@@ -1,4 +1,4 @@
-import { Button } from 'cding-ui'
+import { Button } from 'craftex-ui'
 import { makeStyles } from '@griffel/react'
 
 const useClasses = makeStyles({

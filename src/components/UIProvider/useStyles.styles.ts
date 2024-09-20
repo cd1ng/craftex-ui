@@ -1,5 +1,5 @@
 import { makeStyles, mergeClasses } from '@griffel/react'
-import { UIProviderProps, tokens } from 'cding-ui'
+import { UIProviderProps, tokens } from 'craftex-ui'
 import { useThemeStyleTag } from './useThemeStyleTag'
 
 const fishProviderClassNames = {

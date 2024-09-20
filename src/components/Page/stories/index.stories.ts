@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { within, userEvent, expect } from '@storybook/test'
 
-import { Page } from 'cding-ui'
+import { Page } from 'craftex-ui'
 
 const meta = {
   title: 'Example/Page',

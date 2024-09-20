@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { fn } from '@storybook/test'
 
-import { Header } from 'cding-ui'
+import { Header } from 'craftex-ui'
 
 const meta = {
   title: 'Example/Header',

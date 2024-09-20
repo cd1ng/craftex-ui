@@ -1,4 +1,4 @@
-import { PartialTheme } from 'cding-ui'
+import { PartialTheme } from 'craftex-ui'
 import { createCSSRuleFromTheme } from '../createCSSRuleFromTheme'
 
 describe('createCSSRuleFromTheme', () => {
