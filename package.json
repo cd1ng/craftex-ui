@@ -1,8 +1,22 @@
 {
   "name": "craftex-ui",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
+  "author": "cd1ng",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cd1ng/craftex-ui"
+  },
+  "main": "dist/craftex-ui.cjs.js",
+  "module": "dist/craftex-ui.es.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -31,7 +45,7 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
-    "@storybook/types": "^8.3.2",
+    "@storybook/types": "^8.2.9",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.0",
     "@types/react": "^18.3.3",
@@ -52,6 +66,7 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1",
+    "vite-plugin-dts": "^4.2.1",
     "vitest": "^2.0.5"
   },
   "eslintConfig": {
