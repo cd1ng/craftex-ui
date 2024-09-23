@@ -260,7 +260,7 @@ function getExample(demoData: Data) {
 
 function getApp(data: Data) {
   const code = dedent`
-    import { FishProvider, webLightTheme } from 'fish-ui-sy';
+    import { FishProvider, webLightTheme } from 'craftex-ui';
     import { ${data.storyExportToken} as Example } from './example';
 
     const App = () => {

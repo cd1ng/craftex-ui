@@ -21,11 +21,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
+    /** 标准的Ts项目导出类型定义，declaration设置为true */
     "declaration": true,
     "declarationDir": "dist",
     "paths": {
       "craftex-ui": ["./src/index.ts"]
     }
   },
-  "include": ["src"]
+  "include": ["src","types"]
 }
