@@ -3,7 +3,7 @@ import { addDemoActionButton } from "../sandbox-factory";
 
 import type { StoryContext } from "@storybook/types";
 
-export const useExportToSandboxButton = (
+export const withExportToSandboxButton = (
   storyFn: (context: StoryContext) => JSX.Element,
   context: StoryContext
 ) => {
