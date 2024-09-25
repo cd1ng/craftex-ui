@@ -1,10 +1,11 @@
 import { withExportToSandboxButton } from "../docs/sandbox/decorators/withExportToSandboxButton";
-import { withFinshProvider } from "../docs/sandbox/decorators/withFinshProvider";
+import { withCraftexProvider } from "../docs/sandbox/decorators/withCraftexProvider";
+import { CraftexDocsPage } from "../docs/src/CraftexDocsPage";
+import { THEME_ID } from "../docs/theme-addon";
 
 import type { Preview } from "@storybook/react";
-import { CraftexDocsPage } from "../docs/src/CraftexDocsPage";
 
-export const decorators = [withFinshProvider,withExportToSandboxButton];
+export const decorators = [withCraftexProvider, withExportToSandboxButton];
 
 const preview: Preview = {
   tags: ["autodocs"],
@@ -36,5 +37,7 @@ const preview: Preview = {
     },
   },
 };
+
+export const initialGlobals = { [THEME_ID]: undefined }; // allow theme to be set by URL query param
 
 export default preview;

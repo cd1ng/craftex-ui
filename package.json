@@ -29,7 +29,9 @@
     "build-storybook-docs": "storybook build --docs"
   },
   "dependencies": {
-    "@griffel/react": "^1.5.25",
+    "@griffel/react": "^1.5.25"
+  },
+  "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -40,9 +42,12 @@
     "@storybook/addon-essentials": "^8.3.3",
     "@storybook/addon-interactions": "^8.3.3",
     "@storybook/addon-links": "^8.3.3",
+    "@storybook/addon-mdx-gfm": "^8.3.3",
     "@storybook/addon-onboarding": "^8.3.3",
     "@storybook/addons": "^7.6.17",
+    "@storybook/api": "^7.6.17",
     "@storybook/blocks": "^8.3.3",
+    "@storybook/components": "^8.3.3",
     "@storybook/react": "^8.3.3",
     "@storybook/react-vite": "^8.3.3",
     "@storybook/test": "^8.3.3",
