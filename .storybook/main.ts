@@ -13,5 +13,9 @@ const config: StorybookConfig = {
     name: '@storybook/react-vite',
     options: {},
   },
+  // Docs的Description添加Ts描述配置
+  typescript: {
+    reactDocgen: "react-docgen-typescript",
+  },
 }
 export default config

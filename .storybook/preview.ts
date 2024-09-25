@@ -1,8 +1,9 @@
 import { useExportToSandboxButton } from "../docs/sandbox/decorators/with-export-to-sandbox-button";
+import { withFinshProvider } from "../docs/sandbox/decorators/withFinshProvider";
 
 import type { Preview } from "@storybook/react";
 
-export const decorators = [useExportToSandboxButton];
+export const decorators = [withFinshProvider,useExportToSandboxButton];
 
 const preview: Preview = {
   tags: ["autodocs"],

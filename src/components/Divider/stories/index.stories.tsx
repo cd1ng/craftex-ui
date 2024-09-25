@@ -87,20 +87,6 @@ import CustomStylesSource from "./DividerCustomStyles.stories?raw";
 export default {
   title: "组件/Divider",
   component: Divider,
-  decorators: [
-    (Story) => (
-      <UIProvider>
-        <div
-          style={{
-            padding: "48px 24px",
-            backgroundColor: tokens.colorNeutralBackground2,
-          }}
-        >
-          <Story />
-        </div>
-      </UIProvider>
-    ),
-  ],
 } as Meta;
 
 export { Default, Vertical, Appearance, Inset, AlignContent, CustomStyles };
