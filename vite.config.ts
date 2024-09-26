@@ -28,7 +28,7 @@ export default defineConfig({
     outDir: "dist",
     lib: {
       entry: resolve("src/index.ts"),
-      name: "fish-ui-sy",
+      name: "craftex-ui",
       fileName: (format) => `craftex-ui.${format}.js`,
       formats: ["cjs", "es", "umd"],
     },
