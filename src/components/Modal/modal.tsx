@@ -54,4 +54,10 @@ export const Modal = ({ children, className, title, onClose, onOk, onCancel, clo
   </Dialog>
 }
 
+Modal.prototype.showDialog = ()=>{
+  
+}
+
+
+Modal.displayName = 'Modal'
 
