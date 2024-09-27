@@ -1,5 +1,5 @@
 import { PropsWithChildren, useMemo, isValidElement } from "react";
-import { Dialog } from "./dialog";
+import { Dialog } from "./Dialog";
 interface ModalProps extends PropsWithChildren {
   className: string
   title: string

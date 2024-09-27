@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import './App.css'
 import "./components/modal/modal.less"
-import { Modal } from './modal'
+import { Modal } from './Modal'
 
 function App() {
   const [ visible , setVisible ] = useState(false)
