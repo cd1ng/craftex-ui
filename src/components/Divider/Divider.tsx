@@ -37,6 +37,7 @@ export const Divider: ForwardRefComponent<DividerProps> = forwardRef((
     children,
     className,
     style,
+    ...restProps
   },
   ref
 ) => {
@@ -49,7 +50,7 @@ export const Divider: ForwardRefComponent<DividerProps> = forwardRef((
   if (hasChildren && typeof children === "string") {
     hasChildren = children.trim() !== ""
   }
-  return <div ref={ref as React.Ref<HTMLDivElement>} className={
+  return <div {...restProps} ref={ref as React.Ref<HTMLDivElement>} className={
     mergeClasses(
       dividerClassNames.root,
 
