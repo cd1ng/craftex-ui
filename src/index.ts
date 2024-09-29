@@ -7,4 +7,4 @@ export * from './components/UIProvider'
 export * from './components/Divider'
 export * from './components/Text'
 export * from './components/Message'
-
+export * from './components/Input'
