@@ -14,7 +14,9 @@ export type InputProps = React.HTMLAttributes<HTMLInputElement> &
      * 类名。
      */
     className?: string;
-    /** Input can't have children. */
+    /**
+     * Input没有子节点,明确禁止Input组件接受子元素
+     */
     children?: never;
     /**
      * Size of the input (changes the font size and spacing).
