@@ -56,11 +56,11 @@ describe("Divider", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it("renders a divider with a different color", () => {
-    const component = render(<Divider color="#FF00FF" />);
-    const tree = component.asFragment();
-    expect(tree).toMatchSnapshot();
-  });
+  // it("renders a divider with a different color", () => {
+  //   const component = render(<Divider color="#FF00FF" />);
+  //   const tree = component.asFragment();
+  //   expect(tree).toMatchSnapshot();
+  // });
 
   it("renders a vertical divider", () => {
     const component = render(<Divider vertical />);

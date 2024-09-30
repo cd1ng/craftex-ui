@@ -1,0 +1,71 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > renders a default input 1`] = `
+<DocumentFragment>
+  <span
+    class="fish-ui-Input r1oeeo9n ___1v9icnz_137yv9i fvcxoqz f1ub3y4t f1l4zc64 f1m52nbi f8vnjqi fz1etlk f1klwx88 f1hc16gm"
+  >
+    <input
+      class="fish-ui-Input__input r12stul0"
+      type="text"
+      value=""
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Input > renders a disabled input 1`] = `
+<DocumentFragment>
+  <span
+    class="fish-ui-Input r1oeeo9n ___l8rfd20_fexo0v0 fdrzuqr f1c21dwh f1jj8ep1 f15xbau f4ikngz fy0fskl f9dbb4x f3qs60o fwd1oij f5u9ap2 fhr9occ f99w1ws"
+  >
+    <input
+      class="fish-ui-Input__input r12stul0 ___12qx8ed_15h66xx f1s2aq7o f1c21dwh fdrzuqr fahhnxm"
+      type="text"
+      value=""
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Input > renders a large input 1`] = `
+<DocumentFragment>
+  <span
+    class="fish-ui-Input r1oeeo9n ___1od6sq6_1wz9i3l f1w5jphr fk6fouc fod5ikn figsok6 faaz57k f1eyhf9v fvcxoqz f1ub3y4t f1l4zc64 f1m52nbi f8vnjqi fz1etlk f1klwx88 f1hc16gm"
+  >
+    <input
+      class="fish-ui-Input__input r12stul0 ___e4pcmp0_u8glci0 fnphzt9 flt1dlf"
+      type="text"
+      value=""
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Input > renders a medium input 1`] = `
+<DocumentFragment>
+  <span
+    class="fish-ui-Input r1oeeo9n ___1v9icnz_137yv9i fvcxoqz f1ub3y4t f1l4zc64 f1m52nbi f8vnjqi fz1etlk f1klwx88 f1hc16gm"
+  >
+    <input
+      class="fish-ui-Input__input r12stul0"
+      type="text"
+      value=""
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Input > renders a small input 1`] = `
+<DocumentFragment>
+  <span
+    class="fish-ui-Input r1oeeo9n ___1hq2tbx_1ql12s0 f1pha7fy fk6fouc fy9rknc figsok6 fwrc4pm fvcxoqz f1ub3y4t f1l4zc64 f1m52nbi f8vnjqi fz1etlk f1klwx88 f1hc16gm"
+  >
+    <input
+      class="fish-ui-Input__input r12stul0 ___dmmac90_19wzd1i f1f5gg8d f1vdfbxk"
+      type="text"
+      value=""
+    />
+  </span>
+</DocumentFragment>
+`;
